@@ -3,11 +3,10 @@
  * Auth: Abdi G. Berhe
  */
 
-#include<stdio.h>
+#include <stdio.h>
 
 /**
-         * main - prints "with proper grammar, but the outcome is a piece of art
-,"
+         * main - prints "with proper grammar, but the outcome is a piece of art,"
          * Followed by new line
          * Return: Always 0
          */
