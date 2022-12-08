@@ -6,7 +6,7 @@
 #include<stdio.h>
 
 /**
- * Main - prints "Programming is like building a multilingual puzzle"
+ * main - prints "Programming is like building a multilingual puzzle"
  * Followed by new line
  * Return: always 0
  */
