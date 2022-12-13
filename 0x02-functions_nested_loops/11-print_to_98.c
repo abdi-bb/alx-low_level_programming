@@ -9,7 +9,7 @@
 
 /**
  * print_to_98 - main function
- *
+ * @n: natural number to return
  * The number to begin counting at.
  */
 void print_to_98(int n)
