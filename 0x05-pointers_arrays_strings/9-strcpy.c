@@ -4,16 +4,17 @@
  */
 
 #include "main.h"
+#include "2-strlen.c"
 
 /**
- * _strcpy - Copies a string pointed to by @src, including the
- *           terminating null byte, to a buffer pointed to by @dest.
- * @dest: A buffer to copy the string to.
- * @src: The source string to copy.
+ * _strcpy - main function to copy
  *
- * Return: A pointer to the destination string @dest.
+ * @dest: destination to copy
+ * @src: src
+ *
+ * Return: a character value
  */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
