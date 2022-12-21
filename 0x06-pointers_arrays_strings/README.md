@@ -1,0 +1,1 @@
+Additional proejects on pointers, arrays and strings.
