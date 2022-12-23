@@ -1,4 +1,6 @@
-[0. Preprocessor](https://github.com/abdi8-GitHub/alx-low_level_programming/0x00-hello_world/0-preprocessor)
+[0. Preprocessor](https://github.com/abdi8-GitHub/alx-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)
+
+ln -s 0_Preprocessor /alx-low_level_programming/0x00-hello_world/0-preprocessor
 
 Write a script that runs a C file through the preprocessor and save the result into another file.
 The C file name will be saved in the variable $CFILE
