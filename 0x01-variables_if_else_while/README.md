@@ -25,6 +25,7 @@ if the last digit of n is greater than 5: the string and is greater than 5
 if the last digit of n is 0: the string and is 0
 if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
 followed by a new line
+
 [2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](https://github.com/abdi8-GitHub/alx-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c)
 
 Write a program that prints the alphabet in lowercase, followed by a new line.
