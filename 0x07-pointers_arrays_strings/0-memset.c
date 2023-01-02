@@ -6,21 +6,19 @@
 #include "main.h"
 
 /**
- * memset - Fills the first n bytes of the memory area
- *          pointed to by @s with the constant byte @c.
- * @s: A pointer to the memory area to be filled.
- * @c: The character to fill the memory area with.
- * @n: The number of bytes to be filled.
- *
- * Return: A pointer to the filled memory area @s.
+ * _memset - sets memory to array
+ * @s: array to set
+ * @b: value to set it as
+ * @n: n amount of times
+ * Return: char value of s
  */
-void *_memset(void *s, int c, size_t n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
-	unsigned char *memory = s, value = c;
 
 	for (i = 0; i < n; i++)
-		memory[i] = value;
-
-	return (memory);
+	{
+		s[i] = b;
+	}
+	return (s);
 }
