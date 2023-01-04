@@ -1,6 +1,6 @@
 /*
  * File: 101-wildcmp.c
- * Auth: Abdi G. Berhe
+ * Auth: Abdi G Berhe
  */
 
 #include "main.h"
