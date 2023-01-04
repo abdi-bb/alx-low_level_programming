@@ -19,5 +19,6 @@ int _sqrt_recursion(int n)
 	{
 		return (x);
 	}
+	if (x == n / 2)
 		return (-1);
 }
