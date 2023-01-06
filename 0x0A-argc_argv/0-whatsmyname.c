@@ -7,10 +7,11 @@
 #include <stdio.h>
 
 /**
- * main - prints its name
- * @argv[]: argument vector
+ * main - prints its name.
+ * @argv: An array of pointers to the arguments.
+ * @argc: The number of arguments supplied to the program.
  *
- * Return: returns 0 for success
+ * Return: Always 0.
  */
 int main(int __attribute__((__unused__)) argc, char* argv[])
 {
