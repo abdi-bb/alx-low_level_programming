@@ -3,7 +3,6 @@
  * Auth: Abdi G. Berhe
  */
 
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
