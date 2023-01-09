@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * _strdup - function that returns a pointer to newly allocated 
- * 	space in memory.
+ * _strdup - function that returns a pointer to newly allocated
+ *	space in memory.
  * @str: The string given as a parameter.
  *
  * Return: NULL if str = NULL or for insufficient memory, returns a pointer to
@@ -27,8 +27,8 @@ char *_strdup(char *str)
 
 	if (dup == NULL)
 		return (NULL);
-
-for (i = 0; str[i]; i++)
+	
+	for (i = 0; str[i]; i++)
 		dup[i] = str[i];
 
 	dup[len] = '\0';
