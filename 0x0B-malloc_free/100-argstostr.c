@@ -12,10 +12,10 @@ char *argstostr(int ac, char **av)
 {
 	char *arr;
 	int i, j, arrindex = 0, size = ac;
-	
+
 	if (ac == 0 || av == NULL)
 		return (NULL);
-	
+
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j]; j++)
@@ -31,10 +31,10 @@ char *argstostr(int ac, char **av)
 	{
 		for (j = 0; av[i][j]; j++)
 			arr[arrindex++] = av[i][j];
-	
+
 		arr[arrindex++] = '\n';
 	}
-		
+
 	arr[size] = '\0';
 
 	return (arr);
