@@ -53,5 +53,5 @@ Each element of this array should contain a single word, null-terminated
 The last element of the returned array should be NULL
 Words are separated by spaces
 Returns NULL if str == NULL or str == ""
-If your function fails, it should return NULL
+If your function fails, it should return NULL.
 
