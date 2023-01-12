@@ -5,12 +5,12 @@
  * malloc_checked - Allocates memory using malloc.
  * @b: The size of memory to be allocated.
  *
- * Return: On success, returns a pointer to the allocated memory.
+ * Return: Returns a pointer to the allocated memory.
  */
 void *malloc_checked(unsigned int b)
 {
 	void *m;
-       
+
 	m = malloc(b);
 
 	if (m == NULL)
