@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_listint - Prints all the elements of listint_t
- * @h: Node to be passed as an argument
+ * @h: Linked list of type listint_t to print
  *
  * Return: The number of nodes.
  */
