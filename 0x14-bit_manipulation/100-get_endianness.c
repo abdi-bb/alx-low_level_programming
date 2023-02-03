@@ -8,9 +8,12 @@
  */
 int get_endianness(void)
 {
-	unsigned int num = 1;
-	char *p = (char *) &num;
+	int num;
 
-	return (p[0] == 1);
+	num = 1;
+	if (*(char *)&num == 1)
+		return (1);
+	else
+		return (0);
 }
 
