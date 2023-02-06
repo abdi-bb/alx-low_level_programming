@@ -9,21 +9,25 @@
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
+	int o, w, len = 0;
+
 	if (filename == NULL)
 		return (-1);
 
-	if (text_content == NULL)
-		return (1);
+	if (text_content != NULL)
+	{
+		for (len = 0; text_content[len];)
+			len++;
+	}
 
-	FILE *file = fopen(filename, "a");
+	o = open(filename, O_WRONLY | O_APPEND);
+	w = write(o, text_content, len);
 
-	if (file == NULL)
+	if (o == -1 || w == -1)
 		return (-1);
 
-	int result = fputs(text_content, file);
+	close(o);
 
-	fclose(file);
-
-	return ((result >= 0) ? 1 : -1);
+	return (1);
 }
 
